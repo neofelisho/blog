@@ -1,0 +1,4 @@
+baseURL = "https://neofelisho.github.io/"
+languageCode = "en-us"
+title = "尼欧のメモ帳"
+theme = "ananke"
