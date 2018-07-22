@@ -1,10 +1,10 @@
 ---
-layout      : post
-title       : "Set parameters by additional arguments of VSTS."
-date        : 2018-07-18 23:00:00 +0800
-categories  : programming
-tags        : [Azure, VSTS, web.config, SetParameters, additional arguments, Continuous Delivery]
+title: "Set parameters by additional arguments of VSTS"
+date: 2018-07-18T23:00:00+08:00
+tags: [Azure, VSTS, web.config, SetParameters, additional arguments, Continuous Delivery]
+category: "programming"
 ---
+
 `Problem` There were some problems when we migrated our CI/CD from Git/Jenkins to VSTS.
 After many trial-and-errors, we solved them and note here for memo.
 - Incorrect replacement of connection strings.

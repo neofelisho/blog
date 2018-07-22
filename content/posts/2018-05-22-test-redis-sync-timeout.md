@@ -1,9 +1,8 @@
 ---
-layout      : post
-title       : "Test the effect of Redis connection setting: syncTimeout."
-date        : 2018-05-22 20:14:00 +0800
-categories  : programming
-tags        : [azure, redis, timeout, syncTimeout]
+title: "Test the effect of Redis connection setting: syncTimeout"
+date: 2018-05-22T20:14:00+08:00
+tags: [azure, redis, timeout, syncTimeout]
+category: "programming"
 ---
 
 **Story**

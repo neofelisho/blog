@@ -1,9 +1,8 @@
 ---
-layout      : post
-title       : "Azure Redis Connection Exception: SocketClosed."
-date        : 2018-07-02 23:00:00 +0800
-categories  : programming
-tags        : [Azure, Redis, RedisConnectionException, SocketClosed, Network Stability]
+title: "Azure Redis Connection Exception: SocketClosed"
+date: 2018-07-02T23:00:00+08:00
+tags: [Azure, Redis, RedisConnectionException, SocketClosed, Network Stability]
+category: "programming"
 ---
 
 `Problem` There are several distributed webjobs in our system. Last weekend (late June 2018) there were many exceptions when our jobs tried to query data from specific one Redis server. But they could query other Redis servers normally.

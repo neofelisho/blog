@@ -1,4 +1,129 @@
 baseURL = "https://neofelisho.github.io/"
 languageCode = "en-us"
-title = "尼欧のメモ帳"
-theme = "ananke"
+
+author = "neofelisho"
+title = "尼欧の"
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+disqusShortname = "https-neofelisho-github-io" # Comment out to disable Disqus.
+googleAnalytics = "UA-122668877-1"
+enableRobotsTXT = true
+enableEmoji = true
+
+# Built-in highlighting
+# https://gohugo.io/content-management/syntax-highlighting
+#pygmentsCodeFences = true
+#pygmentsStyle = "friendly"
+#pygmentsStyle = "monokai"
+#pygmentsStyle = "default"
+#pygmentsUseClasses = true     # this overrides 'PygmentsStyle'
+#http://pygments.org
+#pygmentsUseClassic = true     # falling back to Pygments instead of Chroma
+
+## Site Settings
+[params]
+    author = "neofelisho"
+    description = "programming, photography, thoughts, memo"
+    authorimage = "img/avatar.jpg"
+
+    # https://golang.org/pkg/time/#example_Time_Format
+    dateformat = "Jan 2, 2006"
+
+    # https://highlightjs.org
+    highlightjs = true
+    #highlightjsstyle = "agate"
+    #highlightjsstyle = "androidstudio"
+    #highlightjsstyle = "atom-one-dark"
+    highlightjsstyle = "atom-one-light"
+    #highlightjsstyle = "dracula"
+    #highlightjsstyle = "darcula"
+    #highlightjsstyle = "github"
+    #highlightjsstyle = "hybrid"
+    #highlightjsstyle = "monokai"
+    #highlightjsstyle = "ocean"
+    #highlightjsstyle = "railscasts"
+    #highlightjsstyle = "rainbow"
+    #highlightjsstyle = "sunburst"
+    #highlightjsstyle = "tomorrow-night"
+    #highlightjsstyle = "tomorrow-night-bright"
+    #highlightjsstyle = "tomorrow-night-eighties"
+    #highlightjsstyle = "zenburn"
+
+    # either GraphComment or Disqus
+    # https://graphcomment.com
+    #GraphCommentId = "neofelisho-github-io"
+
+    mainSections = ["post"]
+[permalinks]
+    posts = "/:year/:month/:slug/"
+    vn = "/:year/:month/:slug/"
+
+## Site Meta Settings
+[params.meta]
+    description = "neo's blog :: programming, photography, thoughts, and memo"
+    keywords = "blog,c#,golang,.net,azure,backend,thoughts,photography"
+
+## Social Accounts
+[params.social]
+    github = "neofelisho"
+    instagram = "neofelisho"
+    #medium = "neofelisho"
+    #bitbucket = ""
+    linkedin = "neofelisho"
+    twitter = "neofelisho"
+    facebook = "neofelisho"
+    #gitlab = "neofelisho"
+    #stackoverflow = ""
+    #xing = ""
+    email = "neofelisho+blog@gmail.com"
+
+
+## Main Menu
+[[menu.main]]
+    name = "Articles"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+# [[menu.main]]
+#     name = "Portfolio"
+#     identifier = "portfolio"
+#     weight = 300
+#     url = "/portfolio/"
+# [[menu.main]]
+#     name = "About"
+#     identifier = "about"
+#     weight = 900
+#     url = "/about/"
+# [[menu.main]]
+#     name = "中文"
+#     identifier = "zh-tw"
+#     weight = 800
+#     url = "/zh-tw/"
+
+# https://gohugo.io/content-management/related
+[related]
+    # Only include matches with rank >= threshold. This is a normalized rank
+    # between 0 and 100.
+    threshold = 80
+    # To get stable "See also" sections we, by default, exclude newer related
+    # pages.
+    includeNewer = false
+    # Will lower case keywords in both queries and in the indexes.
+    toLower = false
+[[related.indices]]
+    name = "keywords"
+    weight = 150
+[[related.indices]]
+    name  = "author"
+    toLower = true
+    weight = 30
+[[related.indices]]
+    name  = "tags"
+    weight = 100
+[[related.indices]]
+    name  = "date"
+    weight = 10
+pattern = "2006"

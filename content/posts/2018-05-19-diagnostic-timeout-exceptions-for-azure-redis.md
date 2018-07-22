@@ -1,10 +1,11 @@
 ---
-layout      : post
-title       : "Diagnostic timeout exceptions in StackExchange.Redis for Azure Redis Cache"
-date        : 2018-05-19 20:51:00 +0800
-categories  : programming
-tags        : [azure, redis, timeout, application insights]
+title: "Diagnostic timeout exceptions in StackExchange.Redis for Azure Redis Cache"
+date: 2018-05-19T20:51:00+08:00
+tags: [azure, redis, timeout, application insights]
+category: "programming"
 ---
+
+
 
 **Story**
 There were many failed requests while we testing our system by VSTS cloud test. Concurrent 10000 users kept playing games or viewing reports.
