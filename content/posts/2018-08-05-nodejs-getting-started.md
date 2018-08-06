@@ -21,3 +21,5 @@ category: "programming"
 13.[[JS] 使用 ESLint 提高程式碼品質](https://larrylu.blog/improve-code-quality-using-eslint-742cf1f384f1)
 14.[淺入淺出 eslint 與實作](https://denny.qollie.com/2016/07/11/eslint-fxcking-setup/)
 15.[JavaScript: RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp#Syntax)
+16.[Measurement of Node.js execution time](https://blog.abelotech.com/posts/measure-execution-time-nodejs-javascript/)
+17.[Node.js: console.timeLog([label][, ...data])](https://nodejs.org/api/console.html#console_console_timelog_label_data)
