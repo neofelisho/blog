@@ -23,3 +23,5 @@ category: "programming"
 15.[JavaScript: RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp#Syntax)
 16.[Measurement of Node.js execution time](https://blog.abelotech.com/posts/measure-execution-time-nodejs-javascript/)
 17.[Node.js: console.timeLog([label][, ...data])](https://nodejs.org/api/console.html#console_console_timelog_label_data)
+18.[@use JSDoc](http://usejsdoc.org/tags-param.html)
+19.[Reading text and binary data with Node.js readable streams](http://codewinds.com/blog/2013-08-04-nodejs-readable-streams.html)
