@@ -29,3 +29,5 @@ category: "programming"
 21. [Promise 學習筆記](https://andyyou.github.io/2017/06/27/js-promise/)
 22. [使用 Promise](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Guide/Using_promises)
 23. [海納百川：Node.js Streams](https://www.eebreakdown.com/2016/10/nodejs-streams.html)
+24. [Sequential execution of Promises using reduce()](https://gist.github.com/anvk/5602ec398e4fdc521e2bf9940fd90f84)
+25. [Promise Chains with Node.js (using Q)](https://coderwall.com/p/ijy61g/promise-chains-with-node-js)
