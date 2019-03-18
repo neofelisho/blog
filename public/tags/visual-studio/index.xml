@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>visual studio on Neo&#39;s Blog</title>
+    <link>https://neofelisho.github.io/tags/visual-studio/</link>
+    <description>Recent content in visual studio on Neo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Sep 2018 12:01:20 +0800</lastBuildDate>
+    
+	<atom:link href="https://neofelisho.github.io/tags/visual-studio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2018 09 20 Strange Issue With System Net Http 4 2 0 0 Not Found</title>
+      <link>https://neofelisho.github.io/posts/2018-09-20-strange-issue-with-system-net-http-4-2-0-0-not-found/</link>
+      <pubDate>Thu, 20 Sep 2018 12:01:20 +0800</pubDate>
+      
+      <guid>https://neofelisho.github.io/posts/2018-09-20-strange-issue-with-system-net-http-4-2-0-0-not-found/</guid>
+      <description>https://stackoverflow.com/questions/47570912/strange-issue-with-system-net-http-4-2-0-0-not-found</description>
+    </item>
+    
+  </channel>
+</rss>

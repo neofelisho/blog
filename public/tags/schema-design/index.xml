@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>schema design on Neo&#39;s Blog</title>
+    <link>https://neofelisho.github.io/tags/schema-design/</link>
+    <description>Recent content in schema design on Neo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Aug 2018 15:21:45 +0800</lastBuildDate>
+    
+	<atom:link href="https://neofelisho.github.io/tags/schema-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2018 08 30 Mongodb Schema Design</title>
+      <link>https://neofelisho.github.io/posts/2018-08-30-mongodb-schema-design/</link>
+      <pubDate>Thu, 30 Aug 2018 15:21:45 +0800</pubDate>
+      
+      <guid>https://neofelisho.github.io/posts/2018-08-30-mongodb-schema-design/</guid>
+      <description> Reference  6 Rules of Thumb for MongoDB Schema Design: Part 1  </description>
+    </item>
+    
+    <item>
+      <title>2018 08 30 Designing a Scalable Partitioning Strategy for Azure Table Storage</title>
+      <link>https://neofelisho.github.io/posts/2018-08-30-designing-a-scalable-partitioning-strategy-for-azure-table-storage/</link>
+      <pubDate>Thu, 30 Aug 2018 15:20:13 +0800</pubDate>
+      
+      <guid>https://neofelisho.github.io/posts/2018-08-30-designing-a-scalable-partitioning-strategy-for-azure-table-storage/</guid>
+      <description> Reference  Designing a Scalable Partitioning Strategy for Azure Table Storage  </description>
+    </item>
+    
+  </channel>
+</rss>
