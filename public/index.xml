@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neo&#39;s Blog</title>
+    <link>https://neofelisho.github.io/</link>
+    <description>Recent content on Neo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Mar 2019 12:09:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://neofelisho.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019 03 18 C# async/await and threads deadlock</title>
+      <link>https://neofelisho.github.io/posts/2019-03-18-c#-async-await-and-thread-deadlock/</link>
+      <pubDate>Mon, 18 Mar 2019 12:09:00 +0800</pubDate>
+      
+      <guid>https://neofelisho.github.io/posts/2019-03-18-c#-async-await-and-thread-deadlock/</guid>
+      <description>A thread-safe async/await program First is a very simple program to simulate requesting I/O in the main function.
+private static async Task Main(string[] args) { Console.WriteLine($&amp;quot;Start, {Thread.CurrentThread.ManagedThreadId}&amp;quot;); await GetIoTaskAsync(); await GetIoTaskAsync(); Console.WriteLine($&amp;quot;End, {Thread.CurrentThread.ManagedThreadId}&amp;quot;); Console.Read(); } private static async Task GetIoTaskAsync() { await Task.Run(() =&amp;gt; { Thread.Sleep(500); Console.WriteLine($&amp;quot;Waiting for I/O, {Thread.CurrentThread.ManagedThreadId}&amp;quot;); }); }  Execute this program and we can get the result like: A unsafe program occurs thread deadlock Sometimes we can see something like below because someone want to invoke an async method in a sync function:</description>
+    </item>
+    
+    <item>
+      <title>2018 09 20 Strange Issue With System Net Http 4 2 0 0 Not Found</title>
+      <link>https://neofelisho.github.io/posts/2018-09-20-strange-issue-with-system-net-http-4-2-0-0-not-found/</link>
+      <pubDate>Thu, 20 Sep 2018 12:01:20 +0800</pubDate>
+      
+      <guid>https://neofelisho.github.io/posts/2018-09-20-strange-issue-with-system-net-http-4-2-0-0-not-found/</guid>
+      <description>https://stackoverflow.com/questions/47570912/strange-issue-with-system-net-http-4-2-0-0-not-found</description>
+    </item>
+    
+    <item>
+      <title>2018 08 30 Mongodb Schema Design</title>
+      <link>https://neofelisho.github.io/posts/2018-08-30-mongodb-schema-design/</link>
+      <pubDate>Thu, 30 Aug 2018 15:21:45 +0800</pubDate>
+      
+      <guid>https://neofelisho.github.io/posts/2018-08-30-mongodb-schema-design/</guid>
+      <description> Reference  6 Rules of Thumb for MongoDB Schema Design: Part 1  </description>
+    </item>
+    
+    <item>
+      <title>2018 08 30 Designing a Scalable Partitioning Strategy for Azure Table Storage</title>
+      <link>https://neofelisho.github.io/posts/2018-08-30-designing-a-scalable-partitioning-strategy-for-azure-table-storage/</link>
+      <pubDate>Thu, 30 Aug 2018 15:20:13 +0800</pubDate>
+      
+      <guid>https://neofelisho.github.io/posts/2018-08-30-designing-a-scalable-partitioning-strategy-for-azure-table-storage/</guid>
+      <description> Reference  Designing a Scalable Partitioning Strategy for Azure Table Storage  </description>
+    </item>
+    
+    <item>
+      <title>2018 08 29 Azure Function Using Node Js</title>
+      <link>https://neofelisho.github.io/posts/2018-08-29-azure-function-using-node-js/</link>
+      <pubDate>Wed, 29 Aug 2018 11:30:04 +0800</pubDate>
+      
+      <guid>https://neofelisho.github.io/posts/2018-08-29-azure-function-using-node-js/</guid>
+      <description> Azure Function Using Node.js Reference  Install VSCode Extensino: Azure Node Essentials Azure Functions for Visual Studio Code Azure Functions JavaScript 開發人員指南 使用 Functions 在 Azure 儲存體佇列中新增訊息  </description>
+    </item>
+    
+    <item>
+      <title>2018 08 05 Nodejs Getting Started</title>
+      <link>https://neofelisho.github.io/posts/2018-08-05-nodejs-getting-started/</link>
+      <pubDate>Sun, 05 Aug 2018 23:50:20 +0800</pubDate>
+      
+      <guid>https://neofelisho.github.io/posts/2018-08-05-nodejs-getting-started/</guid>
+      <description>Node.js Getting Started Stream EventEmitter Promise and Asynchronous Testing Linter Reference  Cheetsheet Create readable stream from object Debugging tests in VS Code Node.js v10.8.0 Documentation (FileSystem) 深入理解 Node.js Stream 内部机制 Node.js 教程 @ RUNOOB.COM Mocha getting started Command JavaScript Design Pattern 單元測試：Mocha、Chai 和 Sinon 测试框架 Mocha 实例教程 测试用例：mocha，should，istanbul 非同步程式碼之霧：Node.js 的事件迴圈與 EventEmitter [JS] 使用 ESLint 提高程式碼品質 淺入淺出 eslint 與實作 JavaScript: RegExp Measurement of Node.js execution time Node.js: console.timeLog([label][, &amp;hellip;data]) @use JSDoc Reading text and binary data with Node.</description>
+    </item>
+    
+    <item>
+      <title>2018 07 22 Mongodb Getting Started</title>
+      <link>https://neofelisho.github.io/posts/2018-07-22-mongodb-getting-started/</link>
+      <pubDate>Sun, 22 Jul 2018 23:01:09 +0800</pubDate>
+      
+      <guid>https://neofelisho.github.io/posts/2018-07-22-mongodb-getting-started/</guid>
+      <description> Reference  Indexing and MongoDB Query Performance MongoDB Driver Quick Tour MongoDB .NET Driver API Documentation New collection with index? POCO Documents in Bson Should I set all decimals to double in Bson? Dynamic create collections and indexes in C#  </description>
+    </item>
+    
+    <item>
+      <title>Set parameters by additional arguments of VSTS</title>
+      <link>https://neofelisho.github.io/posts/2018-07-18-vsts-set-parameters-by-additional-arguments/</link>
+      <pubDate>Wed, 18 Jul 2018 23:00:00 +0800</pubDate>
+      
+      <guid>https://neofelisho.github.io/posts/2018-07-18-vsts-set-parameters-by-additional-arguments/</guid>
+      <description>Problem There were some problems when we migrated our CI/CD from Git/Jenkins to VSTS. After many trial-and-errors, we solved them and note here for memo. - Incorrect replacement of connection strings. - Incorrect replacement of email address. - Incorrect replacement when using xml transform insert.
+Summary - VSTS set parameters according to the base web.config. - VSTS set parameters by replacing them in web.config. - Following the previous two, there should be the config sections in base web.</description>
+    </item>
+    
+    <item>
+      <title>Azure Redis Connection Exception: SocketClosed</title>
+      <link>https://neofelisho.github.io/posts/2018-07-02-azure-redis-connection-socket-closed/</link>
+      <pubDate>Mon, 02 Jul 2018 23:00:00 +0800</pubDate>
+      
+      <guid>https://neofelisho.github.io/posts/2018-07-02-azure-redis-connection-socket-closed/</guid>
+      <description>Problem There are several distributed webjobs in our system. Last weekend (late June 2018) there were many exceptions when our jobs tried to query data from specific one Redis server. But they could query other Redis servers normally.
+These jobs all followed the suggestion from this Azure doc: Quickstart: Use Azure Redis Cache with a .NET application to connect to Redis server.
+private static Lazy&amp;lt;ConnectionMultiplexer&amp;gt; lazyConnection = new Lazy&amp;lt;ConnectionMultiplexer&amp;gt;(() =&amp;gt; { string cacheConnection = ConfigurationManager.</description>
+    </item>
+    
+    <item>
+      <title>Blog posts in GitHub Pages cannot be Googled</title>
+      <link>https://neofelisho.github.io/posts/2018-05-25-blog-posts-in-github-pages-cannot-be-googled/</link>
+      <pubDate>Fri, 25 May 2018 11:22:00 +0800</pubDate>
+      
+      <guid>https://neofelisho.github.io/posts/2018-05-25-blog-posts-in-github-pages-cannot-be-googled/</guid>
+      <description>Reference Better discoverability for GitHub Pages sites</description>
+    </item>
+    
+    <item>
+      <title>Cannot publish to deployment slot of Azure app service</title>
+      <link>https://neofelisho.github.io/posts/2018-05-24-cannot-web-deploy-to-app-service-slot/</link>
+      <pubDate>Thu, 24 May 2018 19:30:00 +0800</pubDate>
+      
+      <guid>https://neofelisho.github.io/posts/2018-05-24-cannot-web-deploy-to-app-service-slot/</guid>
+      <description>Story
+We occured ERROR_DESTINATION_INVALID error while we using web deploy to publish web site to deployment slot of Azure app service.
+Solution Because of the site was running, some files were locked by server. Stop the app service (or iis) and re-deploy it again.</description>
+    </item>
+    
+    <item>
+      <title>Test the effect of Redis connection setting: syncTimeout</title>
+      <link>https://neofelisho.github.io/posts/2018-05-22-test-redis-sync-timeout/</link>
+      <pubDate>Tue, 22 May 2018 20:14:00 +0800</pubDate>
+      
+      <guid>https://neofelisho.github.io/posts/2018-05-22-test-redis-sync-timeout/</guid>
+      <description>Story
+As previous post mentioned, there were many redis timeout exceptions in our system. After we altered the minWorkerThread setting, we eliminated most of the HTTP 500 exceptions. But we still had many HTTP 401 exceptions and there was no problem if we lower the system loading from 10000 ppls to 1000 ppls concurrently.
+Problem Lack async
+Our system uses Redis as OAuth token storage, it looks kind of what Spring Framework does.</description>
+    </item>
+    
+    <item>
+      <title>Diagnostic timeout exceptions in StackExchange.Redis for Azure Redis Cache</title>
+      <link>https://neofelisho.github.io/posts/2018-05-19-diagnostic-timeout-exceptions-for-azure-redis/</link>
+      <pubDate>Sat, 19 May 2018 20:51:00 +0800</pubDate>
+      
+      <guid>https://neofelisho.github.io/posts/2018-05-19-diagnostic-timeout-exceptions-for-azure-redis/</guid>
+      <description>Story There were many failed requests while we testing our system by VSTS cloud test. Concurrent 10000 users kept playing games or viewing reports. &amp;gt;Timeout performing HEXISTS XXX.YYY:OAuthTokenStorages:AccessToken, inst: 267, mgr: Inactive, err: never, queue: 0, qu: 0, qs: 0, qc: 0, wr: 0, wq: 0, in: 0, ar: 0, clientName: RD__________F9, serverEndpoint: Unspecified/xxx.redis.cache.windows.net:6380, keyHashSlot: 1758, IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=45,Free=32722,Min=1,Max=32767) (Please take a look at this article for some common client-side issues that can cause timeouts: http://stackexchange.</description>
+    </item>
+    
+  </channel>
+</rss>

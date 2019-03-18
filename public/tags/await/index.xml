@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>await on Neo&#39;s Blog</title>
+    <link>https://neofelisho.github.io/tags/await/</link>
+    <description>Recent content in await on Neo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Mar 2019 12:09:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://neofelisho.github.io/tags/await/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019 03 18 C# async/await and threads deadlock</title>
+      <link>https://neofelisho.github.io/posts/2019-03-18-c#-async-await-and-thread-deadlock/</link>
+      <pubDate>Mon, 18 Mar 2019 12:09:00 +0800</pubDate>
+      
+      <guid>https://neofelisho.github.io/posts/2019-03-18-c#-async-await-and-thread-deadlock/</guid>
+      <description>A thread-safe async/await program First is a very simple program to simulate requesting I/O in the main function.
+private static async Task Main(string[] args) { Console.WriteLine($&amp;quot;Start, {Thread.CurrentThread.ManagedThreadId}&amp;quot;); await GetIoTaskAsync(); await GetIoTaskAsync(); Console.WriteLine($&amp;quot;End, {Thread.CurrentThread.ManagedThreadId}&amp;quot;); Console.Read(); } private static async Task GetIoTaskAsync() { await Task.Run(() =&amp;gt; { Thread.Sleep(500); Console.WriteLine($&amp;quot;Waiting for I/O, {Thread.CurrentThread.ManagedThreadId}&amp;quot;); }); }  Execute this program and we can get the result like: A unsafe program occurs thread deadlock Sometimes we can see something like below because someone want to invoke an async method in a sync function:</description>
+    </item>
+    
+  </channel>
+</rss>

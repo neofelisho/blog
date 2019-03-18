@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>syncTimeout on Neo&#39;s Blog</title>
+    <link>https://neofelisho.github.io/tags/synctimeout/</link>
+    <description>Recent content in syncTimeout on Neo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 May 2018 20:14:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://neofelisho.github.io/tags/synctimeout/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test the effect of Redis connection setting: syncTimeout</title>
+      <link>https://neofelisho.github.io/posts/2018-05-22-test-redis-sync-timeout/</link>
+      <pubDate>Tue, 22 May 2018 20:14:00 +0800</pubDate>
+      
+      <guid>https://neofelisho.github.io/posts/2018-05-22-test-redis-sync-timeout/</guid>
+      <description>Story
+As previous post mentioned, there were many redis timeout exceptions in our system. After we altered the minWorkerThread setting, we eliminated most of the HTTP 500 exceptions. But we still had many HTTP 401 exceptions and there was no problem if we lower the system loading from 10000 ppls to 1000 ppls concurrently.
+Problem Lack async
+Our system uses Redis as OAuth token storage, it looks kind of what Spring Framework does.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://neofelisho.github.io/posts/2019-03-18-c#-async-await-and-thread-deadlock/</loc>
+    <lastmod>2019-03-18T12:09:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/posts/2018-09-20-strange-issue-with-system-net-http-4-2-0-0-not-found/</loc>
+    <lastmod>2018-09-20T12:01:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/posts/2018-08-30-mongodb-schema-design/</loc>
+    <lastmod>2018-08-30T15:21:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/posts/2018-08-30-designing-a-scalable-partitioning-strategy-for-azure-table-storage/</loc>
+    <lastmod>2018-08-30T15:20:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/posts/2018-08-29-azure-function-using-node-js/</loc>
+    <lastmod>2018-08-29T11:30:04+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/posts/2018-08-05-nodejs-getting-started/</loc>
+    <lastmod>2018-08-05T23:50:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/posts/2018-07-22-mongodb-getting-started/</loc>
+    <lastmod>2018-07-22T23:01:09+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/posts/2018-07-18-vsts-set-parameters-by-additional-arguments/</loc>
+    <lastmod>2018-07-18T23:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/posts/2018-07-02-azure-redis-connection-socket-closed/</loc>
+    <lastmod>2018-07-02T23:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/posts/2018-05-25-blog-posts-in-github-pages-cannot-be-googled/</loc>
+    <lastmod>2018-05-25T11:22:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/posts/2018-05-24-cannot-web-deploy-to-app-service-slot/</loc>
+    <lastmod>2018-05-24T19:30:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/posts/2018-05-22-test-redis-sync-timeout/</loc>
+    <lastmod>2018-05-22T20:14:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/posts/2018-05-19-diagnostic-timeout-exceptions-for-azure-redis/</loc>
+    <lastmod>2018-05-19T20:51:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/azure/</loc>
+    <lastmod>2018-07-18T23:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/c#/</loc>
+    <lastmod>2018-07-22T23:01:09+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/continuous-delivery/</loc>
+    <lastmod>2018-07-18T23:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/github/</loc>
+    <lastmod>2018-05-25T11:22:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/github-pages/</loc>
+    <lastmod>2018-05-25T11:22:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/google/</loc>
+    <lastmod>2018-05-25T11:22:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/mongodb/</loc>
+    <lastmod>2018-07-22T23:01:09+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/</loc>
+    <lastmod>2019-03-18T12:09:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/network-stability/</loc>
+    <lastmod>2018-07-02T23:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/posts/</loc>
+    <lastmod>2019-03-18T12:09:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/redis/</loc>
+    <lastmod>2018-07-02T23:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/redisconnectionexception/</loc>
+    <lastmod>2018-07-02T23:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/setparameters/</loc>
+    <lastmod>2018-07-18T23:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/socketclosed/</loc>
+    <lastmod>2018-07-02T23:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/</loc>
+    <lastmod>2018-07-18T23:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/vsts/</loc>
+    <lastmod>2018-07-18T23:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/additional-arguments/</loc>
+    <lastmod>2018-07-18T23:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/app-service/</loc>
+    <lastmod>2018-05-24T19:30:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/application-insights/</loc>
+    <lastmod>2018-05-19T20:51:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/async/</loc>
+    <lastmod>2019-03-18T12:09:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/asynchronous/</loc>
+    <lastmod>2019-03-18T12:09:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/await/</loc>
+    <lastmod>2019-03-18T12:09:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/azure/</loc>
+    <lastmod>2018-08-30T15:20:13+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/azure-function/</loc>
+    <lastmod>2018-08-29T11:30:04+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/azure-table-storage/</loc>
+    <lastmod>2018-08-30T15:20:13+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/be-googled/</loc>
+    <lastmod>2018-05-25T11:22:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/blog/</loc>
+    <lastmod>2018-05-25T11:22:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/c#/</loc>
+    <lastmod>2018-07-22T23:01:09+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/deadlock/</loc>
+    <lastmod>2019-03-18T12:09:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/deployment-slot/</loc>
+    <lastmod>2018-05-24T19:30:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/index/</loc>
+    <lastmod>2018-07-22T23:01:09+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/mongodb/</loc>
+    <lastmod>2018-07-22T23:01:09+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/node.js/</loc>
+    <lastmod>2018-08-29T11:30:04+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/nuget/</loc>
+    <lastmod>2018-09-20T12:01:20+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/publish/</loc>
+    <lastmod>2018-05-24T19:30:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/queue-trigger/</loc>
+    <lastmod>2018-08-29T11:30:04+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/redis/</loc>
+    <lastmod>2018-05-22T20:14:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/schema-design/</loc>
+    <lastmod>2018-08-30T15:21:45+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/storage-queue/</loc>
+    <lastmod>2018-08-29T11:30:04+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/synctimeout/</loc>
+    <lastmod>2018-05-22T20:14:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/system.net.http/</loc>
+    <lastmod>2018-09-20T12:01:20+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/table-partition/</loc>
+    <lastmod>2018-08-30T15:20:13+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/threads/</loc>
+    <lastmod>2019-03-18T12:09:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/timeout/</loc>
+    <lastmod>2018-05-22T20:14:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/visual-studio/</loc>
+    <lastmod>2018-09-20T12:01:20+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/web-deploy/</loc>
+    <lastmod>2018-05-24T19:30:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://neofelisho.github.io/tags/web.config/</loc>
+    <lastmod>2018-07-18T23:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

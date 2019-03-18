@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web.config on Neo&#39;s Blog</title>
+    <link>https://neofelisho.github.io/tags/web.config/</link>
+    <description>Recent content in web.config on Neo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Jul 2018 23:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://neofelisho.github.io/tags/web.config/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Set parameters by additional arguments of VSTS</title>
+      <link>https://neofelisho.github.io/posts/2018-07-18-vsts-set-parameters-by-additional-arguments/</link>
+      <pubDate>Wed, 18 Jul 2018 23:00:00 +0800</pubDate>
+      
+      <guid>https://neofelisho.github.io/posts/2018-07-18-vsts-set-parameters-by-additional-arguments/</guid>
+      <description>Problem There were some problems when we migrated our CI/CD from Git/Jenkins to VSTS. After many trial-and-errors, we solved them and note here for memo. - Incorrect replacement of connection strings. - Incorrect replacement of email address. - Incorrect replacement when using xml transform insert.
+Summary - VSTS set parameters according to the base web.config. - VSTS set parameters by replacing them in web.config. - Following the previous two, there should be the config sections in base web.</description>
+    </item>
+    
+  </channel>
+</rss>
