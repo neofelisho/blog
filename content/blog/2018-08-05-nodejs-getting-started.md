@@ -1,11 +1,16 @@
----
-title: "2018 08 05 Nodejs Getting Started"
-date: 2018-08-05T23:50:20+08:00
-tags: [node.js]
-category: "programming"
----
-
-# Node.js Getting Started
++++
+author = "Neo Ho"
+categories = ["programming"]
+tags = ["node.js"]
+date = "2018-08-05"
+description = "Memo for Node.js"
+featured = ""
+featuredalt = ""
+featuredpath = "date"
+linktitle = ""
+title = "Memo for Node.js"
+type = "post"
++++
 
 ## Stream
 

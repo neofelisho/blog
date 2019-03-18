@@ -1,18 +1,23 @@
----
-title: "Diagnostic timeout exceptions in StackExchange.Redis for Azure Redis Cache"
-date: 2018-05-19T20:51:00+08:00
-tags: [azure, redis, timeout, application insights]
-category: "programming"
----
-
-
++++
+author = "Neo Ho"
+categories = ["programming"]
+tags = ["azure", "redis", "timeout", "application insights"]
+date = "2018-05-19"
+description = "Diagnostic timeout exceptions in StackExchange.Redis for Azure Redis Cache"
+featured = "Diagnostic-timeout-exceptions-for-redis-01.png"
+featuredalt = "Diagnostic-timeout-exceptions-for-redis-01"
+featuredpath = "date"
+linktitle = ""
+title = "Diagnostic timeout exceptions in StackExchange.Redis for Azure Redis Cache"
+type = "post"
++++
 
 **Story**
 There were many failed requests while we testing our system by VSTS cloud test. Concurrent 10000 users kept playing games or viewing reports.
-![Picture-01](https://2.bp.blogspot.com/-vtXs8coCoXg/Wv_I92kcKjI/AAAAAAAAUaU/tKeRGJ_QT2YmBwJ-6EH2zSbmHfbayCkfwCLcBGAs/s1600/Diagnostic-timeout-exceptions-for-redis-01.png)
+![Picture-01](/img/2018/05/Diagnostic-timeout-exceptions-for-redis-01.png)
 >Timeout performing HEXISTS XXX.YYY:OAuthTokenStorages:AccessToken, inst: 267, mgr: Inactive, err: never, queue: 0, qu: 0, qs: 0, qc: 0, wr: 0, wq: 0, in: 0, ar: 0, clientName: RD__________F9, serverEndpoint: Unspecified/xxx.redis.cache.windows.net:6380, keyHashSlot: 1758, IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=45,Free=32722,Min=1,Max=32767) (Please take a look at this article for some common client-side issues that can cause timeouts: http://stackexchange.github.io/StackExchange.Redis/Timeouts) 
 
-![Picture-02](https://4.bp.blogspot.com/-S4H1S4cWlcA/Wv_JcxvoYyI/AAAAAAAAUac/XBr29445ZcoclhYRukjB4bH-rFKMAC-kACLcBGAs/s1600/Diagnostic-timeout-exceptions-for-redis-02.png)
+![Picture-02](/img/2018/05/Diagnostic-timeout-exceptions-for-redis-02.png)
 >Timeout performing ZRANGEBYSCORE ixxxr:1, inst: 1, mgr: Inactive, err: never, queue: 4, qu: 0, qs: 4, qc: 0, wr: 0, wq: 0, in: 287, ar: 0, clientName: RD__________67, serverEndpoint: Unspecified/xxx.redis.cache.windows.net:6380, keyHashSlot: 5222, IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=12,Free=32755,Min=1,Max=32767) (Please take a look at this article for some common client-side issues that can cause timeouts: http://stackexchange.github.io/StackExchange.Redis/Timeouts)
 >
 ---
@@ -37,9 +42,9 @@ We added logs in constructor of Redis multiplextor to make sure that we kept sin
 ThreadPool.SetMinThreads(256, 16);
 ```
 
-`Before` ![minWorkerThread = 1](https://c1.staticflickr.com/1/882/41556068634_929899eb45_o_d.png)
+`Before` ![minWorkerThread = 1](/img/2018/05/41556068634_929899eb45_o.png)
 
-`After` ![minWorerTHreads = 100](https://c1.staticflickr.com/1/829/42230321742_e658f7de18_o_d.png)
+`After` ![minWorerTHreads = 100](/img/2018/05/42230321742_e658f7de18_o.png)
 
 `Reference` [.NET Threadpool and ASP.NET Settings](https://github.com/projectkudu/kudu/wiki/Azure-Web-App-sandbox#net-threadpool-and-aspnet-settings)
 
@@ -49,7 +54,7 @@ ThreadPool.SetMinThreads(256, 16);
 
 `Problem`: **Lack async**
 
-Obviously, but I have to do [more test](https://neofelisho.github.io/neofelisho.github.io/post/2018/05/22/2018-05-22-test-redis-sync-timeout.html) about the effect between sync and async in Redis utilization.
+Obviously, but I have to do [more test](https://neofelisho.github.io/neofelisho.github.io/blog/2018/05/22/2018-05-22-test-redis-sync-timeout.html) about the effect between sync and async in Redis utilization.
 
 ---
 

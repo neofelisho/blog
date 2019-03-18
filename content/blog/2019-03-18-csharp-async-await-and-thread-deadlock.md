@@ -1,9 +1,16 @@
----
-title: "2019 03 18 C# async/await and threads deadlock"
-date: 2019-03-18T12:09:00+08:00
-tags: [c#, async, await, asynchronous, threads, deadlock]
-category: "programming"
----
++++
+author = "Neo Ho"
+categories = ["programming"]
+tags = ["c#", "async", "await", "thread", "task", "deadlock"]
+date = "2019-03-18"
+description = "C# async/await and threads deadlock"
+featured = ""
+featuredalt = ""
+featuredpath = "date"
+linktitle = ""
+title = "C# async/await and threads deadlock"
+type = "post"
++++
 
 ## A thread-safe async/await program
 First is a very simple program to simulate requesting I/O in the main function.
@@ -27,7 +34,8 @@ private static async Task GetIoTaskAsync()
 }
 ```
 Execute this program and we can get the result like:
-![001.PNG](https://github.com/neofelisho/blog/tree/master/img/2019-03-18-c#-async-await-and-thread-deadlock/001.PNG)
+
+![001.PNG](/img/2019/03/001.PNG)
 
 ## A unsafe program occurs thread deadlock
 Sometimes we can see something like below because someone want to invoke an async method in a sync function:
@@ -62,7 +70,9 @@ private static async Task Main(string[] args)
 }
 ```
 Well, we can get an acceptable result like this:
-![002.PNG](https://github.com/neofelisho/blog/tree/master/img/2019-03-18-c#-async-await-and-thread-deadlock/002.PNG)
+
+![002.PNG](/img/2019/03/002.PNG)
+
 The main function goes to the `End` but we still have some tasks uncomplete. 
 If we don't terminate the main function, the remaining tasks will be executed and completed by default [TaskScheduler](https://docs.microsoft.com/zh-tw/dotnet/api/system.threading.tasks.taskscheduler).
 
@@ -89,7 +99,8 @@ private static async Task Main(string[] args)
 }
 ```
 Yes, we get a better result than the previous one.
-![003.PNG](https://github.com/neofelisho/blog/tree/master/img/2019-03-18-c#-async-await-and-thread-deadlock/003.PNG)
+
+![003.PNG](/img/2019/03/003.PNG)
 
 But now, if someone want to invoke this async I/O method 10 times in a sync function just like before. 
 ```csharp
@@ -109,7 +120,9 @@ private static void Main(string[] args)
 }
 ```
 What will happen? It occurs thread deadlock!
-![004.PNG](https://github.com/neofelisho/blog/tree/master/img/2019-03-18-c#-async-await-and-thread-deadlock/004.PNG)
+
+![004.PNG](/img/2019/03/004.PNG)
+
 We can not complete all tasks by the two worker threads we have.
 
 ## How to avoid thread deadlock

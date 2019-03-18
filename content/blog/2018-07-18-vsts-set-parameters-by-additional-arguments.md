@@ -1,9 +1,16 @@
----
-title: "Set parameters by additional arguments of VSTS"
-date: 2018-07-18T23:00:00+08:00
-tags: [Azure, VSTS, web.config, SetParameters, additional arguments, Continuous Delivery]
-category: "programming"
----
++++
+author = "Neo Ho"
+categories = ["programming"]
+tags = ["azure", "vsts", "azure devops", "web.config", "SetParameters", "additional arguments", "continuous delivery"]
+date = "2018-07-18"
+description = "Set parameters by additional arguments of VSTS"
+featured = ""
+featuredalt = ""
+featuredpath = "date"
+linktitle = ""
+title = "Set parameters by additional arguments of VSTS"
+type = "post"
++++
 
 `Problem` There were some problems when we migrated our CI/CD from Git/Jenkins to VSTS.
 After many trial-and-errors, we solved them and note here for memo.

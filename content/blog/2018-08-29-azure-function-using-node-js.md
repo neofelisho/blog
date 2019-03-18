@@ -1,11 +1,16 @@
----
-title: "2018 08 29 Azure Function Using Node Js"
-date: 2018-08-29T11:30:04+08:00
-tags: [node.js, azure, azure function, storage queue, queue trigger]
-category: "programming"
----
-
-# Azure Function Using Node.js
++++
+author = "Neo Ho"
+categories = ["programming"]
+tags = ["node.js", "azure", "azure functions", "storage queue", "queue trigger"]
+date = "2018-08-29"
+description = "Memo for Azure Function using Node.js"
+featured = ""
+featuredalt = ""
+featuredpath = "date"
+linktitle = ""
+title = "Memo for Azure Function using Node.js"
+type = "post"
++++
 
 ## Reference
 1. [Install VSCode Extensino: Azure Node Essentials](https://marketplace.visualstudio.com/items?itemName=azuresdkteam.azurenodeessentials)
