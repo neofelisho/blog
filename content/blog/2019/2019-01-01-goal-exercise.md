@@ -1,7 +1,7 @@
 +++
 author = "Neo Ho"
 categories = ["memo"]
-tags = ["sport", "exercise", "training"]
+tags = ["sport","exercise","training"]
 date = "2019-01-01"
 description = "Goal for 2019: Exercise more than 150 times."
 featured = "exercise01.PNG"

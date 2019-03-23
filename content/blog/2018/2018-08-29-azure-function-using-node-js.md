@@ -1,7 +1,7 @@
 +++
 author = "Neo Ho"
 categories = ["programming"]
-tags = ["node.js", "azure", "azure functions", "storage queue", "queue trigger"]
+tags = ["node.js","azure","functions","storage","queue","trigger"]
 date = "2018-08-29"
 description = "Memo for Azure Function using Node.js"
 featured = ""

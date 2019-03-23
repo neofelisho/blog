@@ -1,7 +1,7 @@
 +++
 author = "Neo Ho"
 categories = ["programming"]
-tags = ["azure", "redis", "timeout", "application insights"]
+tags = ["azure","redis","timeout","application","insights"]
 date = "2018-05-19"
 description = "Diagnostic timeout exceptions in StackExchange.Redis for Azure Redis Cache"
 featured = "Diagnostic-timeout-exceptions-for-redis-01.png"

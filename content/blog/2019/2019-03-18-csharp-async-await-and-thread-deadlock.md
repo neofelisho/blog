@@ -1,7 +1,7 @@
 +++
 author = "Neo Ho"
 categories = ["programming"]
-tags = ["c#", "async", "await", "thread", "task", "deadlock"]
+tags = ["c#","async","await","thread","task","deadlock"]
 date = "2019-03-18"
 description = "C# async/await and threads deadlock"
 featured = ""

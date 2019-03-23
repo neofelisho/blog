@@ -1,7 +1,7 @@
 +++
 author = "Neo Ho"
 categories = ["programming"]
-tags = ["azure", "redis", "timeout", "syncTimeout"]
+tags = ["azure","redis","timeout","syncTimeout"]
 date = "2018-05-22"
 description = "Test the effect of Redis connection setting: syncTimeout"
 featured = "42230890302_93accccc39_o.png"

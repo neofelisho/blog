@@ -1,7 +1,7 @@
 +++
 author = "Neo Ho"
 categories = ["programming"]
-tags = ["azure", "vsts", "azure devops", "web.config", "SetParameters", "additional arguments", "continuous delivery"]
+tags = ["azure","vsts","azure","devops","web.config","SetParameters","additional","arguments","continuous","delivery"]
 date = "2018-07-18"
 description = "Set parameters by additional arguments of VSTS"
 featured = ""

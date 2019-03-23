@@ -1,7 +1,7 @@
 +++
 author = "Neo Ho"
 categories = ["programming"]
-tags = ["MongoDB", "C#", "index"]
+tags = ["MongoDB","C#","index"]
 date = "2018-07-22"
 description = "Memo for MongoDB"
 featured = ""

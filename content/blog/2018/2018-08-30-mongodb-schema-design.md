@@ -1,7 +1,7 @@
 +++
 author = "Neo Ho"
 categories = ["programming"]
-tags = ["mongodb", "schema design"]
+tags = ["mongodb","schema","design"]
 date = "2018-08-30"
 description = "Memo for Mongodb Schema Design"
 featured = ""

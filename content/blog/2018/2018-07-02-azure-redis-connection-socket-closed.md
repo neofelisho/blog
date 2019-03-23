@@ -1,7 +1,7 @@
 +++
 author = "Neo Ho"
 categories = ["programming"]
-tags = ["azure", "redis", "RedisConnectionException", "SocketClosed", "network stability"]
+tags = ["azure","redis","RedisConnectionException","SocketClosed","network","stability"]
 date = "2018-07-02"
 description = "Azure Redis Connection Exception: SocketClosed"
 featured = ""
