@@ -1,6 +1,9 @@
-[submodule "themes/hugo-future-imperfect"]
-	path = themes/hugo-future-imperfect
-	url = https://github.com/jpescador/hugo-future-imperfect.git
 [submodule "public"]
 	path = public
 	url = git@github.com:neofelisho/neofelisho.github.io.git
+[submodule "themes/hugo-future-imperfect-slim"]
+	path = themes/hugo-future-imperfect-slim
+	url = git@github.com:pacollins/hugo-future-imperfect-slim.git
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
