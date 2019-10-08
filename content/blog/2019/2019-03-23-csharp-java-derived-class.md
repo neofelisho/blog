@@ -1,17 +1,16 @@
-+++
-author = "Neo Ho"
-categories = ["programming"]
-tags = ["oop","c#","java","object","oriented","base","class","derived","sub","super"]
-date = "2019-03-23"
-description = "Difference between C# and Java about derived class."
-featured = "derived-class-01.PNG"
-featuredalt = "derived-class"
-featuredpath = "date"
-linktitle = ""
-title = "Difference between C# and Java about derived class."
-type = "post"
-
-+++
+---
+author: "Neo Ho"
+categories: ["programming"]
+tags: ["oop","c#","java","object","oriented","base","class","derived","sub","super"]
+date: "2019-03-23"
+description: "Difference between C# and Java about derived class."
+featured: "derived-class-01.PNG"
+featuredalt: "derived-class"
+featuredpath: "date"
+linktitle: ""
+title: "Difference between C# and Java about derived class."
+type: "post"
+---
 
 ## A simple derived class example in `Java`
 
